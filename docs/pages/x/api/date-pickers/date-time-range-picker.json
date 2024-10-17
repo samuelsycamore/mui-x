@@ -352,7 +352,7 @@
     },
     {
       "name": "tabs",
-      "description": "Tabs enabling toggling between date and time pickers.",
+      "description": "Tabs enabling toggling between Date and Time Pickers.",
       "default": "DateTimeRangePickerTabs",
       "class": null
     },

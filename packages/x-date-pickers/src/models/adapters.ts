@@ -67,7 +67,7 @@ export interface AdapterFormats {
 
   // Date formats
   /** The localized full date.
-   * Used for the aria-label of the opening button of the `DatePicker`.
+   * Used for the aria-label of the opening button of the `<DatePicker />`.
    * @example "Jan 1, 2019"
    */
   fullDate: string;
@@ -85,13 +85,13 @@ export interface AdapterFormats {
   shortDate: string;
   /**
    * The month name and the day of the month.
-   * Used in the `DatePicker` toolbar for non-english locales.
+   * Used in the `<DatePicker />` toolbar for non-english locales.
    * @example "1 January"
    */
   normalDate: string;
   /**
    * The month name, the day of the week and the day of the month.
-   * Used in the `DatePicker` toolbar for english locales.
+   * Used in the `<DatePicker />` toolbar for english locales.
    * @example "Sun, Jan 1"
    */
   normalDateWithWeekday: string;

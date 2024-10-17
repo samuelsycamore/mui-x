@@ -17,7 +17,7 @@ materialDesign: https://m2.material.io/components/date-pickers
 
 ## Component composition
 
-The component is built using the `DateField` for the keyboard editing and the `DateCalendar` for the view editing.
+The component is built using the `<DateField />` for the keyboard editing and the `DateCalendar` for the view editing.
 
 Check-out their documentation page for more information:
 
@@ -45,19 +45,19 @@ Learn more about the _Controlled and uncontrolled_ pattern in the [React documen
 
 The component is available in four variants:
 
-- The `DesktopDatePicker` component which works best for mouse devices and large screens.
+- The `<DesktopDatePicker />` component which works best for mouse devices and large screens.
   It renders the views inside a popover and allows editing values directly inside the field.
 
-- The `MobileDatePicker` component which works best for touch devices and small screens.
+- The `<MobileDatePicker />` component which works best for touch devices and small screens.
   It renders the view inside a modal and does not allow editing values directly inside the field.
 
-- The `DatePicker` component which renders `DesktopDatePicker` or `MobileDatePicker` depending on the device it runs on.
+- The `<DatePicker />` component which renders `<DesktopDatePicker />` or `<MobileDatePicker />` depending on the device it runs on.
 
-- The `StaticDatePicker` component which renders without the popover/modal and field.
+- The `<StaticDatePicker />` component which renders without the popover/modal and field.
 
 {{"demo": "ResponsiveDatePickers.js"}}
 
-By default, the `DatePicker` component renders the desktop version if the media query [`@media (pointer: fine)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer) matches.
+By default, the `<DatePicker />` component renders the desktop version if the media query [`@media (pointer: fine)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer) matches.
 This can be customized with the `desktopModeMediaQuery` prop.
 
 :::warning

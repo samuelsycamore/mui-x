@@ -9,7 +9,7 @@ import {
 
 export interface PickersComponentSpecificLocaleText {
   /**
-   * Title displayed in the toolbar of the `DatePicker` and its variants.
+   * Title displayed in the toolbar of the `<DatePicker />` and its variants.
    * Will be overridden by the `toolbarTitle` translation key passed directly on the picker.
    */
   datePickerToolbarTitle: string;

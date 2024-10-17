@@ -21,7 +21,7 @@ All the components have a `value` / `onChange` API to set and control the values
 
 All the components exported by `@mui/x-date-pickers` are also exported by `@mui/x-date-pickers-pro` but without the nested imports.
 
-For example, to use the `DatePicker` component, the following three imports are valid:
+For example, to use the Date Picker component, the following three imports are valid:
 
 ```tsx
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
@@ -94,7 +94,7 @@ Depending on your use case, different interaction styles are preferred.
 
 :::info
 Each _Picker_ is a combination of one _Field_ and one or several _Calendar / Clock_ components.
-For example, the `DatePicker` is the combination of the `DateField` and the `DateCalendar`.
+For example, the `<DatePicker />` is the combination of the `<DateField />` and the `DateCalendar`.
 
 The _Calendar / Clock_ components are rendered inside a _Popover_ on desktop and inside a _Modal_ on mobile.
 :::
@@ -110,12 +110,12 @@ The demo below shows each one of them using their field component:
 
 Each _Picker_ is available in a responsive, desktop and mobile variant:
 
-- The responsive component (for example `DatePicker`) which renders the desktop component or the mobile one depending on the device it runs on.
+- The responsive component (for example `<DatePicker />`) which renders the desktop component or the mobile one depending on the device it runs on.
 
-- The desktop component (for example `DesktopDatePicker`) which works best for mouse devices and large screens.
+- The desktop component (for example `<DesktopDatePicker />`) which works best for mouse devices and large screens.
   It renders the views inside a popover and allows editing values directly inside the field.
 
-- The mobile component (for example `MobileDatePicker`) which works best for touch devices and small screens.
+- The mobile component (for example `<MobileDatePicker />`) which works best for touch devices and small screens.
   It renders the view inside a modal and does not allow editing values directly inside the field.
 
 {{"demo": "ResponsivePickers.js"}}
@@ -245,7 +245,7 @@ Learn more about the mental model of slots in the Base UI documentation: [Overr
 
 You can find the list of available slots for each component in its respective [API reference](/x/api/date-pickers/date-picker/#slots) doc.
 
-Some parts of the Pickers' UI are built on several nested slots. For instance, the adornment of the `TextField` on `DatePicker` contains three slots (`inputAdornment`, `openPickerButton`, and `openPickerIcon`) that you can use depending on what you are trying to customize.
+Some parts of the Pickers' UI are built on several nested slots. For instance, the adornment of the `TextField` on `<DatePicker />` contains three slots (`inputAdornment`, `openPickerButton`, and `openPickerIcon`) that you can use depending on what you are trying to customize.
 
 {{"demo": "CustomSlots.js"}}
 

@@ -3630,7 +3630,7 @@ We'd like to offer a big thanks to the 10 contributors who made this release pos
    // Same for all the other pickers with an `Unstable_` prefix
   ```
 
-  If you were still using the legacy picker (`DatePicker`, `DesktopDatePicker`, ...), please take a look at our [migration guide](https://mui.com/x/migration/migration-pickers-v5/#picker-components) for detailed explanations on how to start using the new ones.
+  If you were still using the legacy picker (`<DatePicker />`, `<DesktopDatePicker />`), please take a look at our [migration guide](https://mui.com/x/migration/migration-pickers-v5/#picker-components) for detailed explanations on how to start using the new ones.
 
 - The fields components are no longer unstable
 
@@ -4554,8 +4554,8 @@ We'd like to offer a big thanks to the 8 contributors who made this release poss
 - [pickers] Add Ukrainian (uk-UA) locale (#6661) @Dufran
 - [pickers] Allow non-controlled usage of the calendar components (#6643) @flaviendelangle
 - [pickers] Export other adapters derived from moment or date-fns (#6571) @alexfauquette
-- [pickers] New `MobileDatePicker` and `DatePicker` based on `DateField` (#6690) @flaviendelangle
-- [pickers] New `StaticDatePicker` component (#6708) @flaviendelangle
+- [pickers] New `<MobileDatePicker />` and `<DatePicker />` based on `<DateField />` (#6690) @flaviendelangle
+- [pickers] New `<StaticDatePicker />` component (#6708) @flaviendelangle
 - [pickers] Rename `inputFormat` prop to `format` on the new pickers (#6722) @flaviendelangle
 
 ### Core
@@ -4658,7 +4658,7 @@ We'd like to offer a big thanks to the 9 contributors who made this release poss
 - [DateTimePicker] Fix toolbar time order when `theme.rtl=true` (#6636) @alexfauquette
 - [pickers] Import fixes for mask editing (#6623) @alexfauquette
 - [pickers] Rename remaining `private` components (#6550) @LukasTy
-- [pickers] New `DesktopDatePicker` based on `DateField` (#6548) @flaviendelangle
+- [pickers] New `<DesktopDatePicker />` based on `<DateField />` (#6548) @flaviendelangle
 
 ### Docs
 
@@ -5202,7 +5202,7 @@ We'd like to offer a big thanks to the 8 contributors who made this release poss
 
 #### Changes
 
-- [DatePicker] Respect `minDate` and `maxDate` when opening a `DatePicker` or `DateTimePicker` (#6309) @alexfauquette
+- [DatePicker] Respect `minDate` and `maxDate` when opening a Date Picker or Date Time Picker (#6309) @alexfauquette
 - [DateTimePicker] Fix validation with `shouldDisableMonth` and `shouldDisableYear` (#6266) @flaviendelangle
 - [TimePicker] Add support for `disablePast` and `disableFuture` validation props (#6226) @LukasTy
 - [CalendarPicker] Prevent getting focus when `autoFocus=false` (#6304) @alexfauquette
@@ -5210,7 +5210,7 @@ We'd like to offer a big thanks to the 8 contributors who made this release poss
 - [pickers] Allow to control the selected sections (#6209, #6307) @flaviendelangle
 - [pickers] Do not loose the value of date sections not present in the format in the new field components (#6141) @flaviendelangle
 - [pickers] Do not support unparsed date formats anymore (#6170) @flaviendelangle
-- [pickers] Support slots on the `DateField` component (#6048) @flaviendelangle
+- [pickers] Support slots on the Date Field component (#6048) @flaviendelangle
 - [pickers] Support Luxon v3 in `AdapterLuxon` (#6069) @alexfauquette
 - [pickers] New components `TimeField` and `DateTimeField` (#6312) @flaviendelangle
 - [pickers] Support basic mobile edition on new field components (#5958) @flaviendelangle
@@ -5372,7 +5372,7 @@ You can find more information about the new api, including how to set those tran
 - [pickers] Add Persian (fa-IR) locale to the pickers (#6181) @fakhamatia
 - [pickers] Allow nested `LocalizationProvider` (#6011) @flaviendelangle
 - [pickers] Clean slots on `PickersArrowSwitcher` component (#5890) @flaviendelangle
-- [pickers] Fix invalid date error when decreasing `DateField` day (#6071) @alexfauquette
+- [pickers] Fix invalid date error when decreasing `<DateField />` day (#6071) @alexfauquette
 - [pickers] Fix mobile section selection (#6207) @oliviertassinari
 - [pickers] Fix usage with TypeScript 4.8 (#6229) @flaviendelangle
 - [pickers] Improve error message when no adapter context is found (#6211) @flaviendelangle

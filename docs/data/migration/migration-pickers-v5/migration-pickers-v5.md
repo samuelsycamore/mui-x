@@ -64,7 +64,7 @@ Feel free to [open an issue](https://github.com/mui/mui-x/issues/new/choose) for
 
 ### ✅ Rename the `inputFormat` prop
 
-The `inputFormat` prop has been renamed to `format` on all the pickers components.
+The `inputFormat` prop has been renamed to `format` on all the Picker components.
 
 ```diff
  <DatePicker

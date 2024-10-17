@@ -57,7 +57,7 @@ export interface DatePickerProps<
 }
 
 /**
- * Props the field can receive when used inside a `DatePicker`, `DesktopDatePicker` or `MobileDatePicker` component.
+ * Props the field can receive when used inside a `<DatePicker />`, `<DesktopDatePicker />` or `<MobileDatePicker />` component.
  */
 export type DatePickerFieldProps<
   TDate extends PickerValidDate,

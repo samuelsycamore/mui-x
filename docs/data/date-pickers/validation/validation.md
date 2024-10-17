@@ -9,25 +9,25 @@ packageName: '@mui/x-date-pickers'
 
 <p class="description">Add custom validation to user inputs.</p>
 
-All the date and time pickers have an API for adding validation constraints.
+All the Date and Time Pickers have an API for adding validation constraints.
 By default, they provide visual feedback if the component value doesn't meet the validation criteria.
 
 :::info
-The validation props are showcased for each type of picker component using the responsive pickers (`DatePicker`, `TimePicker`, `DateTimePicker`, and `DateRangePicker`, etc.).
+The validation props are showcased for each type of picker component using the responsive pickers (Date Picker, Time Picker, Date Time Picker, Date Range Picker, etc.).
 
 But the same props are available on:
 
 - all the other variants of this picker;
 
-  For example, the validation props showcased with `DatePicker` are also available on:
+  For example, the validation props showcased with `<DatePicker />` are also available on:
 
-  - `DesktopDatePicker`
-  - `MobileDatePicker`
-  - `StaticDatePicker`
+  - `<DesktopDatePicker />`
+  - `<MobileDatePicker />`
+  - `<StaticDatePicker />`
 
 - the field used by this picker;
 
-  For example, the validation props showcased with `DatePicker` are also available on `DateField`.
+  For example, the validation props showcased with `<DatePicker />` are also available on `<DateField />`.
 
 - the view components;
 

@@ -38,7 +38,7 @@ export interface BaseDateTimePickerSlots<TDate extends PickerValidDate>
   extends DateCalendarSlots<TDate>,
     TimeClockSlots {
   /**
-   * Tabs enabling toggling between date and time pickers.
+   * Tabs enabling toggling between Date and Time Pickers.
    * @default DateTimePickerTabs
    */
   tabs?: React.ElementType<DateTimePickerTabsProps>;

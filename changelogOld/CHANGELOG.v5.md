@@ -1405,9 +1405,9 @@ _May 20, 2022_
 
 We'd like to offer a big thanks to the 6 contributors who made this release possible. Here are some highlights ✨:
 
-- 🌍 Support localization on the date and time picker components (#4517) @alexfauquette
+- 🌍 Support localization on the Date and Time Picker components (#4517) @alexfauquette
 
-  Texts can be translated in the pickers components, similar to what can be done in the Data Grid component. Check the [documentation](https://mui.com/x/react-date-pickers/localization/) for more information.
+  Text can be translated in the Picker components, similar to what can be done in the Data Grid component. Check the [documentation](https://mui.com/x/react-date-pickers/localization/) for more information.
 
 - 📃 Add support for column spanning when exporting to Excel (#4830) @cherniavskii
 
@@ -1679,7 +1679,7 @@ We'd like to offer a big thanks to the 9 contributors who made this release poss
 
 - ⚡ Update peer dependencies to support React 18 (#4332) @m4theushw
 
-  Now the Data Grid and pickers components support the concurrent mode.
+  Now the Data Grid and Picker components support the concurrent mode.
 
 - 🎁 Add support for [Column spanning](https://mui.com/x/react-data-grid/column-spanning/) (#4020) @cherniavskii
 
@@ -1757,7 +1757,7 @@ We'd like to offer a big thanks to the 7 contributors who made this release poss
 
   The different methods to save and restore the data-grid state are now [documented](https://mui.com/x/react-data-grid/state/#save-and-restore-the-state).
 
-- ⌚️ Move date and time picker components from the lab (#3451) @flaviendelangle
+- ⌚️ Move Date and Time Picker components from the lab (#3451) @flaviendelangle
 
   Date and time picker components have been moved to the MUI X repository.
   They are now accessible in their own packages: `@mui/x-date-pickers` and `@mui/x-date-pickers-pro`.
@@ -1812,7 +1812,7 @@ We'd like to offer a big thanks to the 7 contributors who made this release poss
 
 - [docs] Create an home page for "Advanced Components" (#4298) @flaviendelangle
 - [docs] Update installation docs (#4259) @cherniavskii
-- [docs] New page for the migration of date and time pickers from the lab (#4327) @flaviendelangle
+- [docs] New page for the migration of Date and Time Pickers from the lab (#4327) @flaviendelangle
 
 ### Core
 
@@ -2503,7 +2503,7 @@ A big thanks to the 5 contributors who made this release possible. Here are some
 - [DataGrid] Deprecate the `getValue` param for the `valueGetter` callback (#3314) @flaviendelangle
 - [DataGrid] Add ability to disable export options (#3270) @alexfauquette
 - [DataGrid] Filter value are conserved when possible (#3198) @alexfauquette
-- [DataGrid] Fix `DatePicker` bug by limiting years to 4 digits (#3222) @alexfauquette
+- [DataGrid] Fix Date Picker bug by limiting years to 4 digits (#3222) @alexfauquette
 - [DataGrid] Fix column menu position when closing (#3289) @m4theushw
 - [DataGrid] Fix to not crash when a sort item uses a non-existing column (#3224) @flaviendelangle
 - [DataGrid] Type the `api` param in callback interfaces (#3315) @flaviendelangle

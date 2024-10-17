@@ -49,7 +49,7 @@ export interface BaseDateTimeRangePickerSlots<TDate extends PickerValidDate>
     DigitalClockSlots,
     MultiSectionDigitalClockSlots {
   /**
-   * Tabs enabling toggling between date and time pickers.
+   * Tabs enabling toggling between Date and Time Pickers.
    * @default DateTimeRangePickerTabs
    */
   tabs?: React.ElementType<DateTimeRangePickerTabsProps>;

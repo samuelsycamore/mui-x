@@ -56,7 +56,7 @@ By default, it is set to `true` on desktop and `false` on mobile.
 Here are a few examples:
 
 :::info
-The examples below are using the desktop and mobile variants of the pickers, but the behavior is exactly the same when using the responsive variant (`DatePicker`, `TimePicker`, ...) on a mobile or desktop environment.
+The examples below are using the desktop and mobile variants of the pickers, but the behavior is exactly the same when using the responsive variant (`<DatePicker />`, `TimePicker`, ...) on a mobile or desktop environment.
 :::
 
 - ```tsx
@@ -118,7 +118,7 @@ The examples below are using the desktop and mobile variants of the pickers, but
 
 :::info
 You don't have to fill all the views for the picker to close automatically.
-For example, on the `DatePicker`, the `year` and `month` views are not in the default workflow since they are before the opening view (`day`),
+For example, on the `<DatePicker />`, the `year` and `month` views are not in the default workflow since they are before the opening view (`day`),
 so the picker will close even if you never went to those views.
 :::
 
@@ -230,7 +230,7 @@ By default, `closeOnSelect`, is set to `true` on desktop and `false` on mobile.
 Here are a few examples:
 
 :::info
-The examples below are using the desktop and mobile variants of the pickers, but the behavior is exactly the same when using the responsive variant (`DatePicker`, `TimePicker`, ...) on a mobile or desktop environment.
+The examples below are using the desktop and mobile variants of the pickers, but the behavior is exactly the same when using the responsive variant (`<DatePicker />`, `TimePicker`, ...) on a mobile or desktop environment.
 :::
 
 - ```tsx
