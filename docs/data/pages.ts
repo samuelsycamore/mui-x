@@ -92,6 +92,9 @@ const pages: MuiPage[] = [
               { pathname: '/x/react-data-grid/cell-selection', plan: 'premium', newFeature: true },
             ],
           },
+          { pathname: '/x/react-data-grid/virtualization' },
+          { pathname: '/x/react-data-grid/accessibility' },
+          { pathname: '/x/react-data-grid/performance' },
         ],
       },
       {
@@ -111,6 +114,7 @@ const pages: MuiPage[] = [
           { pathname: '/x/react-data-grid/style', title: 'Styling basics' },
           { pathname: '/x/react-data-grid/style-recipes', title: 'Styling recipes' },
           { pathname: '/x/react-data-grid/layout' },
+          { pathname: '/x/react-data-grid/overlays', title: 'Overlays' },
           { pathname: '/x/react-data-grid/components', title: 'Custom subcomponents' },
         ],
       },
@@ -119,16 +123,19 @@ const pages: MuiPage[] = [
         subheader: 'Interactivity',
         children: [
           { pathname: '/x/react-data-grid/localization' },
+          {
+            pathname: '/x/react-data-grid/custom-behavior',
+            children: [
+              { pathname: '/x/react-data-grid/api-object', title: 'API object' },
+              { pathname: '/x/react-data-grid/events' },
+              { pathname: '/x/react-data-grid/state' },
+            ],
+          },
         ],
       },
       { pathname: '/x/react-data-grid/export' },
       { pathname: '/x/react-data-grid/clipboard', title: 'Copy and paste', newFeature: true },
-      { pathname: '/x/react-data-grid/overlays', title: 'Overlays' },
-
       { pathname: '/x/react-data-grid/scrolling' },
-      { pathname: '/x/react-data-grid/virtualization' },
-      { pathname: '/x/react-data-grid/accessibility' },
-      { pathname: '/x/react-data-grid/performance' },
 
       {
         pathname: '/x/react-data-grid/list-view',
@@ -163,14 +170,6 @@ const pages: MuiPage[] = [
             plan: 'premium',
             planned: true,
           },
-        ],
-      },
-      {
-        pathname: '/x/react-data-grid/custom-behavior',
-        children: [
-          { pathname: '/x/react-data-grid/api-object', title: 'API object' },
-          { pathname: '/x/react-data-grid/events' },
-          { pathname: '/x/react-data-grid/state' },
         ],
       },
       {
