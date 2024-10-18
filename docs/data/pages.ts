@@ -223,7 +223,7 @@ const pages: MuiPage[] = [
           },
         ],
       },
-      { pathname: '/x/react-data-grid/faq', title: 'FAQ' },
+      { pathname: '/x/react-data-grid/faq', title: 'FAQs' },
     ],
   },
   {
@@ -334,8 +334,8 @@ const pages: MuiPage[] = [
         ],
       },
       {
-        pathname: '/x/react-date-pickers/common-features',
-        subheader: 'Common features',
+        pathname: '/x/react-date-pickers/core-features',
+        subheader: 'Core features',
         children: [
           { pathname: '/x/react-date-pickers/validation' },
           { pathname: '/x/react-date-pickers/lifecycle', title: 'Components lifecycle' },
@@ -434,8 +434,8 @@ const pages: MuiPage[] = [
             unstable: true,
           },
           {
-            pathname: '/x/react-charts/common-features',
-            subheader: 'Common features',
+            pathname: '/x/react-charts/core-features',
+            subheader: 'Core features',
             children: [
               { pathname: '/x/react-charts/axis' },
               { pathname: '/x/react-charts/components', title: 'Custom components' },
@@ -519,8 +519,8 @@ const pages: MuiPage[] = [
         ],
       },
       {
-        pathname: '/x/react-tree-view/common-features',
-        subheader: 'Common features',
+        pathname: '/x/react-tree-view/core-features',
+        subheader: 'Core features',
         children: [
           { pathname: '/x/react-tree-view/accessibility' },
           { pathname: '/x/react-tree-view/tree-item-customization', title: 'Item customization' },
